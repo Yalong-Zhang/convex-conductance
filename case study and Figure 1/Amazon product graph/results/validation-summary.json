@@ -1,0 +1,90 @@
+{
+  "dataset": {
+    "nodes": 334863,
+    "edges": 925872
+  },
+  "case_study": {
+    "community": "Chess",
+    "community_id": 41408,
+    "seed_node": 312245,
+    "seed_original_node_id": 517102,
+    "seed_asin": "1857442245",
+    "seed_product_title": "Meeting 1d4 (Everyman Chess)",
+    "pci_theta_offset": 0.5,
+    "all_four_refined_sets_identical": true
+  },
+  "metrics": {
+    "ground_truth": {
+      "size": 284,
+      "volume": 1512,
+      "cut": 98,
+      "conductance": 0.06481481481481481
+    },
+    "appr": {
+      "size": 418,
+      "volume": 2268,
+      "cut": 48,
+      "conductance": 0.021164021164021163,
+      "true_positive": 284,
+      "false_positive": 134,
+      "false_negative": 0,
+      "precision": 0.6794258373205742,
+      "recall": 1.0,
+      "f1": 0.8091168091168092
+    },
+    "rci_query": {
+      "size": 454,
+      "volume": 2573,
+      "cut": 217,
+      "conductance": 0.08433734939759036
+    },
+    "rci_fw": {
+      "size": 327,
+      "volume": 1716,
+      "cut": 10,
+      "conductance": 0.005827505827505828,
+      "true_positive": 282,
+      "false_positive": 45,
+      "false_negative": 2,
+      "precision": 0.8623853211009175,
+      "recall": 0.9929577464788732,
+      "f1": 0.9230769230769231
+    },
+    "rci_fw_exact": {
+      "size": 327,
+      "volume": 1716,
+      "cut": 10,
+      "conductance": 0.005827505827505828,
+      "true_positive": 282,
+      "false_positive": 45,
+      "false_negative": 2,
+      "precision": 0.8623853211009175,
+      "recall": 0.9929577464788732,
+      "f1": 0.9230769230769231
+    },
+    "pci_fw": {
+      "size": 327,
+      "volume": 1716,
+      "cut": 10,
+      "conductance": 0.005827505827505828,
+      "true_positive": 282,
+      "false_positive": 45,
+      "false_negative": 2,
+      "precision": 0.8623853211009175,
+      "recall": 0.9929577464788732,
+      "f1": 0.9230769230769231
+    },
+    "pci_fw_exact": {
+      "size": 327,
+      "volume": 1716,
+      "cut": 10,
+      "conductance": 0.005827505827505828,
+      "true_positive": 282,
+      "false_positive": 45,
+      "false_negative": 2,
+      "precision": 0.8623853211009175,
+      "recall": 0.9929577464788732,
+      "f1": 0.9230769230769231
+    }
+  }
+}

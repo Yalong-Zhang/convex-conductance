@@ -1,0 +1,15 @@
+{
+  "input_places": 951,
+  "largest_component_nodes": 927,
+  "knn_k": 10,
+  "knn_edges": 5938,
+  "rci_reference_nodes": 686,
+  "rci_solution_nodes": 526,
+  "rci_conductance": 0.0029199323805132933,
+  "pci_reference_nodes": 289,
+  "pci_solution_nodes": 526,
+  "pci_penalized_conductance": 0.008845437616387336,
+  "common_solution_internal_edges": 3244,
+  "common_solution_cut_edges": 19,
+  "common_solution_conductance": 0.0029199323805132933
+}

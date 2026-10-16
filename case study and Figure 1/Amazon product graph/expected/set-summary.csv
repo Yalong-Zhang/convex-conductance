@@ -1,0 +1,6 @@
+set_name,size,true_positive,false_positive,false_negative,f1
+appr,418,284,134,0,0.80911681
+rci_fw,327,282,45,2,0.92307692
+rci_exact,327,282,45,2,0.92307692
+pci_fw_offset05,327,282,45,2,0.92307692
+pci_exact_offset05,327,282,45,2,0.92307692
